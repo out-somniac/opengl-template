@@ -1,8 +1,7 @@
 #include <iostream>
-#include "Point.hpp"
 
 int main()
 {
-    Point point(1.0f, 1.0f);
+    std::cout << "hello world" << "\n";
     return 0;
 }
