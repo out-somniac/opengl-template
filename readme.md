@@ -9,3 +9,11 @@ git submodule init
 git submodule update
 ```
 This will clone and prepare the dependencies.
+You can now use cmake to create a configuration:
+```
+cmake -S . -B build
+```
+and build the project:
+```
+cmake --build build/
+```
