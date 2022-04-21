@@ -37,9 +37,9 @@ int main()
     
     while(!glfwWindowShouldClose(window))
     {
-            glClear(GL_COLOR_BUFFER_BIT);
-            glfwSwapBuffers(window);
-            glfwPollEvents();
+        glClear(GL_COLOR_BUFFER_BIT);
+        glfwSwapBuffers(window);
+        glfwPollEvents();
     }
     glfwTerminate();
 
